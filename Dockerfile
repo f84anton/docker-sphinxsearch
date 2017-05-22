@@ -10,7 +10,7 @@ ENV OS_LOCALE="en_US.UTF-8" \
 	SPHINX_CONF=/etc/sphinxsearch/sphinx.conf \
 	SPHINX_RUN=/run/sphinxsearch/searchd.pid \
 	SPHINX_DATA_DIR=/var/lib/sphinxsearch/data \
-	SPHINX_DEB="http://sphinxsearch.com/files/sphinxsearch_2.3.2-beta-1~xenial_amd64.deb"
+	SPHINX_DEB="http://sphinxsearch.com/files/sphinxsearch_2.2.11-release-1~xenial_amd64.deb"
 
 # Set the locale
 RUN locale-gen ${OS_LOCALE}  ru_RU.UTF-8
